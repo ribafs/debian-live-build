@@ -15,10 +15,10 @@ cd .local/src
 git clone _repo_  
 cd debian-live-build  
 chmod u+x deploy.sh  
-cd back to home dir  
+cd ~/
 
 **Make Work Dirs**  
-mkdir .build/deb-live  
+mkdir -p .build/deb-live  
 
 **Change Dir**  
 cd .build/deb-live  
